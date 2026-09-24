@@ -3,8 +3,7 @@
 ## Project Structure
 
 ```
-my-project/
-├── AGENTS.md               # AI coding assistant context
+my-project/            # AI coding assistant context
 ├── agentcore/
 │   ├── agentcore.json      # Project config (agents, memories, credentials, gateways, evaluators)
 │   ├── aws-targets.json    # Deployment targets (account + region)
