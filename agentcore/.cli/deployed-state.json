@@ -1,3 +1,23 @@
 {
-  "targets": {}
+  "targets": {
+    "default": {
+      "resources": {
+        "runtimes": {
+          "TravelCalc": {
+            "runtimeId": "interpreter_TravelCalc-zLZg788y1T",
+            "runtimeArn": "arn:aws:bedrock-agentcore:us-east-1:376187598854:runtime/interpreter_TravelCalc-zLZg788y1T",
+            "roleArn": "arn:aws:iam::376187598854:role/AgentCore-interpreter-def-ApplicationAgentTravelCal-jbpi0NDO8skU"
+          }
+        },
+        "memories": {
+          "TravelCalcMemory": {
+            "memoryId": "interpreter_TravelCalcMemory-QK1HSu56A0",
+            "memoryArn": "arn:aws:bedrock-agentcore:us-east-1:376187598854:memory/interpreter_TravelCalcMemory-QK1HSu56A0"
+          }
+        },
+        "stackName": "AgentCore-interpreter-default",
+        "deployHash": "41b3097e928c1afd"
+      }
+    }
+  }
 }
